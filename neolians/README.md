@@ -4,8 +4,6 @@ This project automates **functional tests** for the [TodoMVC React App](https://
 
 ---
 
-
-
 ## 📌 Step 1 – Tested Functionalities
 
 The following features were tested:
@@ -44,7 +42,7 @@ The following features were tested:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/SayfCHERNI/Sayf-ASSETMENT.git
+git clone https://github.com/SayfCHERNI/todo_neolians_assesment.git
 
 npm install
 
