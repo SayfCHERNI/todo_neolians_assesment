@@ -1,0 +1,19 @@
+{
+  "name": "enablon-todo-cypress",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cypress e2e tests for a lightweight Todo webapp (TodoMVC by default)",
+  "scripts": {
+    "test": "cypress run",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "report": "echo 'HTML report generated under cypress/reports';",
+    "postinstall": "echo 'Install complete. Use npm run cy:open or npm run cy:run'"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^23.1.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.6",
+    "cypress": "^13.17.0",
+    "cypress-mochawesome-reporter": "^3.6.1"
+  }
+}
